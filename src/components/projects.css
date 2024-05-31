@@ -1,0 +1,78 @@
+/* COMP229 Assignment 1 Portfolio, Absar Siddiqui, 301396103, 05/30/2024*/
+
+#projectPage {
+  min-height: calc(100vh - 25rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectPageTitle {
+  margin-top: 1rem;
+  color: #535bf2;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.project {
+  position: relative;
+  text-align: left;
+  padding: 2rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+  padding: 2rem; 
+  border-radius: 8px;
+}
+
+.project:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project h2 {
+  margin-bottom: 1rem;
+}
+
+.project p {
+  color: #333;
+  line-height: 1.5rem;
+}
+
+.studyLogo{
+  position: relative;
+  height: 20vh;
+  width: 20rem;;
+  object-fit: cover;
+}
+
+.healthLogo{
+  position: relative;
+  height: 20vh;
+  width: 20rem;
+  object-fit: cover;
+  background-color:bisque;
+}
+
+.estateLogo{
+  position: relative;
+  width: 20rem;
+  height: 20vh;
+  object-fit: cover;
+}
+
+span{
+  font-weight: 800;
+}
+

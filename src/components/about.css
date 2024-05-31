@@ -1,0 +1,79 @@
+/* COMP229 Assignment 1 Portfolio, Absar Siddiqui, 301396103, 05/30/2024*/
+
+#about {
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.bg {
+  position: absolute;
+  top: -5rem;
+  right: -2rem;
+  z-index: -1;
+  object-fit: cover;
+  height: 60vh;
+  aspect-ratio: 1.7/2;
+}
+
+.aboutContent {
+  height: 50vh;
+  width: 100vw;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hello {
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+
+.aboutName {
+  color: #535bf2;
+}
+
+.aboutPara {
+  font-size: large;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width:840px) {
+  .bg {
+      right: -10vw
+  }
+  .introContent {
+      font-size: 10vw;
+  }
+  .hello {
+      font-size: 4.5vw;
+  }
+  
+}
+
+.aboutBtn{
+  background: white;
+  margin: 1rem 0;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 2rem;
+  position: relative;
+  top:-4rem;
+  right: -2rem;
+  background: #535bf2;
+  color: white;
+  font-size: large;
+  border-radius: 9px;
+}
+
+.aboutBtn:hover{
+  cursor: pointer;
+}
+

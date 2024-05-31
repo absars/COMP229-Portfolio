@@ -1,0 +1,20 @@
+/* COMP229 Assignment 1 Portfolio, Absar Siddiqui, 301396103, 05/30/2024*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: floralwhite;
+  color: black;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+
+

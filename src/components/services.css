@@ -1,0 +1,49 @@
+/* COMP229 Assignment 1 Portfolio, Absar Siddiqui, 301396103, 05/30/2024*/
+
+.services {
+    position: relative;
+    text-align: center;
+    padding: 5rem 1rem;
+    background-image: url('../assets/background.png'); 
+    background-size: cover;
+    height: 75vh;
+    background-position: center;
+    color: Yellow; 
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    background:transparent; 
+    border-radius: 8px;
+}
+
+.service {
+    padding: 2rem;
+    border-radius: 8px;
+    background: transparent; 
+    color:white; 
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service h2 {
+    margin-bottom: 1rem;;
+}
+
+.service p {
+    color:white;
+    font-size: medium;
+    font-weight: 100;
+}
+
+h1{
+  font-size: 3rem;
+}
