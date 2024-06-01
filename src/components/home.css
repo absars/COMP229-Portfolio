@@ -51,11 +51,13 @@
 }
 
 .btn {
+  position: relative;
   background: #535bf2;
   color: white;
   border: none;
   border-radius: 0.5rem;
   margin: -1rem;
+  top: 2rem;
   padding: 0.75rem 2.5rem;
   font-size: medium;
   cursor: pointer;
