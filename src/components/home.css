@@ -51,13 +51,14 @@
 }
 
 .btn {
-  position: relative;
+  position: absolute;
   background: #535bf2;
   color: white;
   border: none;
   border-radius: 0.5rem;
-  margin: -1rem;
-  top: 2rem;
+  margin: 0 auto;
+  top: 55%;
+  right: 47%;
   padding: 0.75rem 2.5rem;
   font-size: medium;
   cursor: pointer;
