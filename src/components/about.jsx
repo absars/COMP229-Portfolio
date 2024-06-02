@@ -16,6 +16,8 @@ export default function HomePage() {
           <br /> and web development. My skills include proficiency in languages such as Python, Java,
           <br /> and JavaScript, as well as experience in building and maintaining websites. <br />
           I am passionate about technology and continuously seek to expand my knowledge<br /> and expertise in the field.</p>
+      </div>
+      <div> 
         <a href='./Resume.pdf' target='_blank'><button className="aboutBtn">Resume</button></a>
       </div>
       <img src={bg} alt="Profile" className="bg" />
