@@ -12,6 +12,8 @@ export default function HomePage() {
         <span className="welcome">Welcome</span>
         <span className="introText">I am Absar Siddiqui</span>
         <p className="introPara">As a passionate software engineering student, my mission is to blend creativity with technical skills to build software that makes life better for everyone. I'm dedicated to learning and growing every day, and I believe in solving problems with integrity and innovation. By working hard and collaborating with others, I aim to create meaningful and reliable software that has a positive impact. My goal is to be a part of a vibrant and inclusive tech community, where we can all learn from each other and push the boundaries of what's possible.</p>
+      </div>
+      <div>
         <Link to="/about"><button className="btn">About Me</button></Link>
       </div>
     </section>
